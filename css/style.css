@@ -221,6 +221,11 @@ textarea {
         width: 70%;
     }
 
+    fieldset {
+        width: 75%;
+        margin: auto;
+    }
+
     .row {
         display: flex;
         align-items: center;
@@ -239,7 +244,7 @@ textarea {
     .thick,
     .thin,
     .thin-2 {
-        width: 92%;
+        width: 72%;
     }
     
     .name {
