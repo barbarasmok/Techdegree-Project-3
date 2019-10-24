@@ -59,24 +59,26 @@ h1 {
     height: 2px;
     width: 95%;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .thin-2 {
-    background-color: #DEB841;
-    border: 1px solid #DEB841;
+    background-color: #000;
+    border: 1px solid #000;
     height: 2px;
-    width: 100%;
+    width: 95%;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 p,
-label {
+.label {
     color: gray;
+    font-family: 'Lato', sans-serif;
+    font-size: .85em;
 }
 
-.center {
-    text-align: center;
-}
 
 .signup {
     text-align: center;
@@ -85,11 +87,13 @@ label {
 
 fieldset {
     border: 0;
+    
 }
 
 legend {
-    font-size: 32px;
-    font-weight: 800;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
 }
 
 ::placeholder {
@@ -118,7 +122,6 @@ footer {
 
 
 .label {
-    font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     padding-bottom: 5px;
     padding-top: 10px;
@@ -133,6 +136,13 @@ footer {
     width: 100%;
 }
 
+#state {
+    font-size: .75em;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
 
 input:focus,
 select:focus {
