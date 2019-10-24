@@ -153,6 +153,12 @@ fieldset {
     width: 100%;
 }
 
+input:focus,
+select:focus {
+    background-color: #eeeff1;
+    transition: ease-in, .5s;
+}
+
 .required {
     font-size: .65em;
 }
@@ -196,10 +202,6 @@ textarea {
     margin-top: 5px;
 }
 
-textarea:focus {
-    background-color: #BFBDC1;
-    transition: ease-in, .7s;
-}
 
 #zip {
     display: block;
@@ -244,7 +246,26 @@ textarea:focus {
         font-size: 2em;
         text-transform: uppercase;
     }
+    .thick {
+        margin-top: 40px;
+    }
     
+    .thin {
+        margin-bottom: 40px;
+    }
+
+    #subscribe h2 {
+        font-size: 1.6em;
+    }
+    
+    .subsc-info {
+        font-size: 1em;
+    }
+
+    #state {
+        font-size: .75em;
+        
+    }
 
     #zip {
         max-width: 30%;
