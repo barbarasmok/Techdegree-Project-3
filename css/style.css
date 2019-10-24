@@ -37,7 +37,7 @@ h1 {
 
 .subsc-info {
     text-align: center;
-    font-size: .85em;
+    font-size: .95em;
     width: 80%;
     margin: auto;
     line-height: 1.5;
@@ -76,9 +76,13 @@ p,
 .label {
     color: #000;
     font-family: 'Lato', sans-serif;
-    font-size: .85em;
+    font-size: .95em;
 }
 
+.news {
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
 
 .signup {
     text-align: center;
@@ -179,6 +183,7 @@ button {
     box-shadow: none;
     width: 100%;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 textarea {
@@ -228,6 +233,18 @@ textarea:focus {
     .row label {
         flex-basis: 20%;
     }
+
+    .thick,
+    .thin,
+    .thin-2 {
+        width: 92%;
+    }
+    
+    .name {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    
 
     #zip {
         max-width: 30%;
