@@ -1,4 +1,6 @@
-/*ELEMENT STYLES*/
+/* ================================= 
+  Base Element Styles
+==================================== */
 
 * {
     box-sizing: border-box;
@@ -80,7 +82,9 @@ footer {
     text-align: center;
 }
 
-/*LAYOUT*/
+/* ================================= 
+    Layout
+==================================== */
 
 .container {
     display: flex;
@@ -88,7 +92,9 @@ footer {
     padding: 20px;
 }
 
-/*FORM*/
+/* ================================= 
+  Form
+==================================== */
 
 
 .label {
@@ -151,7 +157,9 @@ textarea:focus {
     width: 50%;
 }
 
-/*MEDIA QUERIES*/
+/* ================================= 
+  Media Queries
+==================================== */
 
 @media (min-width:768px) {
 
