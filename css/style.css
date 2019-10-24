@@ -10,34 +10,40 @@
 
 body {
     line-height: 2;
+    font-family: 'Lato', sans-serif;
 }
 
 .main-header {
     text-align: center;
     background-color: #37323E;
-    padding: 1em 0;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 1.5em;
 }
 
 h1 {
-    font-family: 'Merriweather', serif;
-    font-weight: 300;
-    color: #DE9E36;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
 }
 
 .thick {
-    background-color: #DEB841;
-    border: 1px solid #DEB841;
+    background-color: #000;
+    border: 1px solid #000;
     height: 5px;
-    width: 68%;
+    width: 95%;
     margin: auto;
     margin-bottom: 5px;
 }
 
 .thin {
-    background-color: #DEB841;
-    border: 1px solid #DEB841;
+    background-color: #000;
+    border: 1px solid #000;
     height: 2px;
-    width: 68%;
+    width: 95%;
     margin: auto;
 }
 
