@@ -26,12 +26,12 @@
 
                         <div class="row">
                             <label class="label" for="name">Full Name</label>
-                            <input required class="input" type="text" id="name" name="full_name" placeholder="Required">
+                            <input required class="input required" type="text" id="name" name="full_name" placeholder="Required">
                         </div><!--/.row--> 
 
                         <div class="row">
                             <label class="label" for="email">Email Address</label>
-                            <input required class="input" type="email" id="email" name="user_email" placeholder="Required">
+                            <input required class="input required" type="email" id="email" name="user_email" placeholder="Required">
                         </div><!--/.row--> 
 
                         <div class="row">
@@ -89,9 +89,11 @@
                         <input class="radio" type="radio" name="format" id="plainformat" value="plan_text"><label for="plainformat">Plain text</label>
                     </fieldset>
 
-                        <label for="comment">Other topics you'd like to hear about</label>
+                    <fieldset>
+                        <label class="comment" for="comment">Other topics you'd like to hear about</label>
                         <textarea id="comment" name="comment_area"></textarea>
                         <button type="submit" value="Sign Up">Sign Up</button>
+                    </fieldset>
         </form>
     </div>
 

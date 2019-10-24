@@ -47,17 +47,17 @@ h1 {
     background-color: #000;
     border: 1px solid #000;
     height: 4px;
-    width: 95%;
+    width: 85%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
 .thin {
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #ff784f;
+    border: 1px solid #ff784f;
     height: 2px;
-    width: 95%;
+    width: 85%;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -66,15 +66,15 @@ h1 {
     background-color: #000;
     border: 1px solid #000;
     height: 2px;
-    width: 95%;
+    width: 85%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
 p,
 .label {
-    color: gray;
+    color: #000;
     font-family: 'Lato', sans-serif;
     font-size: .85em;
 }
@@ -98,12 +98,17 @@ legend {
 
 ::placeholder {
     text-align: right;
+    padding-right: 5px;
     font-style: italic;
-    color: #37323E;
+    color: white;
 }
 
 footer {
     text-align: center;
+}
+
+footer p {
+    margin-bottom: 15px;
 }
 
 /* ================================= 
@@ -116,10 +121,18 @@ footer {
     padding: 20px;
 }
 
+fieldset {
+    width: 95%;
+    margin: auto;
+}
+
 /* ================================= 
   Form
 ==================================== */
 
+.row {
+    padding-top: 15px;
+}
 
 .label {
     font-weight: 700;
@@ -128,12 +141,16 @@ footer {
 }
 
 .input {
-    padding: 10px 20px;
+    padding: 15px 15px;
     border-radius: 6px;
     box-sizing: border-box;
-    border: 1px solid gray;
+    border: 1px solid #e6e8eb;
     background-color: #e6e8eb;
     width: 100%;
+}
+
+.required {
+    font-size: .65em;
 }
 
 #state {
@@ -145,37 +162,33 @@ footer {
     margin-right: 10px;
 }
 
-input:focus,
-select:focus {
-    background-color: #BFBDC1;
-    transition: ease-in, .7s;
-}
 
 input:invalid {
-    background-color: #DEB841;
+    background-color: #ff784f;
 }
 
 button {
     margin-top: 20px;
     padding: 20px 10px;
-    background-color: #312F2F;
+    background-color: #ff784f;
     border-radius: 5px;
     color: white;
-    font-family: 'Cormorant Garamond', serif;
-    color: #DE9E36;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
     font-size: 20px;
     box-shadow: none;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 textarea {
-    width: 100%;
-    height: 200px;
     padding: 10px 20px;
+    border-radius: 6px;
     box-sizing: border-box;
-    border-radius: 5px;
+    border: 1px solid #e6e8eb;
     background-color: #e6e8eb;
-    resize: none;
+    width: 100%;
+    margin-top: 5px;
 }
 
 textarea:focus {
@@ -219,4 +232,6 @@ textarea:focus {
     #zip {
         max-width: 30%;
     }
+    
+
 }
