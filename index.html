@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Koocanusa Publications Inc.</title>
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+</head>
+<body>
+ 
+	<header class="main-header-subsc">
+        <a href="index.html"><img class="logo_subsc" src="img/koocanusa_logo.png" alt="logo"></a>
+	</header><!--/.main-header-->  
+
+    <section id="subscribe">
+            <h2>Subscribe today!</h2>
+            <p class="subsc-info">Please write down your information and select the publication you would like to subscribe.</p>
+            <form class="form-contact sbck" action="mail.php" method="POST">
+                    <label for="name">Name:</label> 
+                    <input type="text" id="name">
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="email@website.com">
+    
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" rows="7"></textarea>
+
+                    <label>Choose the publication you would like to subscribe:</label>
+                    <div class="checkboxes">
+                        <fieldset>
+                            <input type="checkbox" id="betterbook" value="publication_betterbook" name="user_publication"><label class="light" for="betterbook">BetterBook</label><br>
+                            <input type="checkbox" id="snoriders" value="publication_snoriders" name="user_publication"><label class="light" for="snoriders">SnoRiders</label><br>
+                            <input type="checkbox" id="riderswest" value="publication_riderswest" name="user_publication"><label class="light" for="riderswest">RidersWest</label><br>
+                            <input type="checkbox" id="kootenaybiz" value="publication_kootenaybiz" name="user_publication"><label class="light" for="kootenaybiz">KootenayBiz</label><br>
+                            <input type="checkbox" id="rvwest" value="publication_rvwest" name="user_publication"><label class="light" for="rvwest">RVwest</label>
+                        </fieldset> 
+                    </div>
+                       
+                    <div class="buttons subsc">
+                        <input class="btn inln submit" type="button" value="Submit">
+                    </div>
+
+              </form>      
+    </section>
+
+    <footer class="main-footer">
+		<span>&copy;2019 Koocanusa Publications Inc.</span>
+	</footer>
+	
+</body>
+</html>
