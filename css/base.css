@@ -50,24 +50,10 @@ img {
 	margin-top: 5px;
 }
 
-.name a,
-.main-nav a {
+.name {
 	text-align: center;
 	display: block;
 	padding: 5px 10px;
-}
-.main-nav a {
-	font-size: 1.2em;
-	color: #60BB46;
-	text-transform: uppercase;
-}
-
-.main-nav a:hover {
-	color: #074694;
-}
-
-.main-nav a:active {
-	color: #021d3f;
 }
 
 /* ---- Layout Containers ---- */
@@ -79,62 +65,8 @@ img {
     margin-top: 10px;
 }
 
-.banner,
 .main-footer {
 	text-align: center;
-}
-
-.banner {
-	color: #fff;
-	background: #60BB46;
-	padding: 3.2em 0;
-	margin-bottom: 48px;
-	height: 500px;
-}
-
-.col {
-	padding-right: 1em;
-	padding-left: 1em;
-}
-
-.row {
-	margin-top: 60px;
-	margin-bottom: 40px;
-} 
-
-#contact {
-	background: #074694;
-	padding: 20px 20px;
-
-}
-
-#contact h2 {
-	color: white;
-}
-
-.contact-info {
-    font-family: 'Lato', sans-serif;
-    color: white;
-    font-size: 1em;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    margin: auto;
-}
-
-.primary,
-.secondary,
-.tertiary,
-.fourth, 
-.fifth,
-.sixth {
-	padding-bottom: 10px;
-}
-
-.sixth {
-	margin-top: 20px;
-	border-radius: 5px;
-	max-width: 100%;
 }
 
 .main-footer {
@@ -157,40 +89,6 @@ img {
 
 
 /* ---- Page Elements ---- */
-
-.logo {
-	padding: 20px 30px;
-}
-
-.logo_subsc {
-	text-align: center;
-}
-
-.favicon {
-	width: 190px;
-	margin-top: 30px;
-}
-
-
-.headline {
-	margin-bottom: 0;
-    padding: 10px;
-    text-transform: uppercase;
-    line-height: 1.1;
-}
-
-.tagline {
-	margin-bottom: 10px;
-    padding-top: 10px;
-    line-height: 1.3;
-    color: white;
-    width: 280px;
-    margin: auto;
-}
-
-.feat-img {
-	border-radius: 5px;
-}
 
 .button {
 	color: #fff;
@@ -315,39 +213,13 @@ label.light {
 ==================================== */
 
 @media (min-width: 768px) {
-	.main-header,
-	.row {
+	.main-header {
 		width: 90%;
 		margin: 0 auto;
 	}
 
 	.main-header {
 		margin-top: 40px;
-	}
-
-	.headline {
-		font-size: 2.7em;
-	}
-
-	.logo {
-		margin-bottom: 15px;
-	}
-
-	.tagline {
-		font-size: 1.5em;
-		width: 400px;
-	}
-
-	.main-nav {
-		margin-bottom: 20px;
-	}
-
-	.main-nav a {
-		font-size: 1.5em;
-	}
-
-	.banner {
-		margin-top: 20px;
 	}
 
 	h2 {
@@ -408,12 +280,6 @@ label.light {
 		max-width: 1024px;
 	}
 
-
-	.main-nav a {
-		font-size: 1.4em;
-		padding-top: 20px;
-	}
-
 	#contact {
 		margin-top: 20px;
 		padding-bottom: 50px;
@@ -436,10 +302,6 @@ label.light {
 
 	.main-footer {
 		font-size: 1em;
-	}
-
-	.sixth {
-		margin-top: 75px;
 	}
 
 }
