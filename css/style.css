@@ -140,7 +140,8 @@ footer {
     font-size: .75em;
 }
 
-.checkbox {
+.checkbox,
+.radio {
     margin-right: 10px;
 }
 
