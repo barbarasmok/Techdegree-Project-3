@@ -229,7 +229,6 @@ textarea {
     .row {
         display: flex;
         align-items: center;
-        padding: 10px;
     }
 
     .row input,
@@ -290,6 +289,15 @@ textarea {
     .thin,
     .thin-2 {
         width: 48%;
+    }
+
+    p,
+    .label {
+        font-size: .85em;
+    }
+
+    .label {
+        margin-right: 20px;
     }
 
 }
