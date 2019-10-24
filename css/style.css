@@ -104,7 +104,7 @@ legend {
     text-align: right;
     padding-right: 5px;
     font-style: italic;
-    color: white;
+    color: #000;
 }
 
 footer {
@@ -174,7 +174,7 @@ select:focus {
 
 
 input:invalid {
-    background-color: #ff784f;
+    background-color: #d4d4d4;
 }
 
 button {
