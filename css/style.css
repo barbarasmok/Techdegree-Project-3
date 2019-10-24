@@ -273,3 +273,18 @@ textarea {
     
 
 }
+
+@media (min-width:1024px) {
+
+    fieldset {
+        width: 50%;
+        margin: auto;
+    }
+
+    .thick,
+    .thin,
+    .thin-2 {
+        width: 48%;
+    }
+
+}
